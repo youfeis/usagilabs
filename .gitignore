@@ -61,4 +61,7 @@
 /backend/drupal.phar
 /backend/drupal
 
+/backend/web/modules/contrib/
+/backend/web/themes/contrib/
+
 .idea/
