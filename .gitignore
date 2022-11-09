@@ -1,0 +1,64 @@
+# gitignore template for Drupal 8 projects
+#
+# earlier versions of Drupal are tracked in `community/PHP/`
+#
+# follows official upstream conventions:
+# https://www.drupal.org/docs/develop/using-composer
+
+# Ignore configuration files that may contain sensitive information
+/backend/web/sites/*/*settings*.php
+/backend/web/sites/*/*services*.yml
+
+# Ignore paths that may contain user-generated content
+/backend/web/sites/*/files
+/backend/web/sites/*/public
+/backend/web/sites/*/private
+/backend/web/sites/*/files-public
+/backend/web/sites/*/files-private
+
+# Ignore paths that may contain temporary files
+/backend/web/sites/*/translations
+/backend/web/sites/*/tmp
+/backend/web/sites/*/cache
+
+# Ignore drupal core (if not versioning drupal sources)
+/backend/vendor
+/backend/web/core
+/backend/web/modules/README.txt
+/backend/web/profiles/README.txt
+/backend/web/sites/development.services.yml
+/backend/web/sites/example.settings.local.php
+/backend/web/sites/example.sites.php
+/backend/web/sites/README.txt
+/backend/web/themes/README.txt
+/backend/web/.csslintrc
+/backend/web/.editorconfig
+/backend/web/.eslintignore
+/backend/web/.eslintrc.json
+/backend/web/.gitattributes
+/backend/web/.htaccess
+/backend/web/.ht.router.php
+/backend/web/autoload.php
+/backend/web/composer.json
+/backend/web/composer.lock
+/backend/web/example.gitignore
+/backend/web/index.php
+/backend/web/INSTALL.txt
+/backend/web/LICENSE.txt
+/backend/web/README.txt
+/backend/web/robots.txt
+/backend/web/update.php
+/backend/web/web.config
+
+# Ignore vendor dependencies and scripts
+/backend/vendor
+/backend/composer.phar
+/backend/composer
+/backend/robo.phar
+/backend/robo
+/backend/drush.phar
+/backend/drush
+/backend/drupal.phar
+/backend/drupal
+
+.ieda
