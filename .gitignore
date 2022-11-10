@@ -8,6 +8,7 @@
 # Ignore configuration files that may contain sensitive information
 /backend/web/sites/*/*settings*.php
 /backend/web/sites/*/*services*.yml
+!/backend/web/sites/*/settings.php
 
 # Ignore paths that may contain user-generated content
 /backend/web/sites/*/files
