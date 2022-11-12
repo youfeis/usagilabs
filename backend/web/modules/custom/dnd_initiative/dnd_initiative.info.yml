@@ -1,0 +1,5 @@
+name: DnD Initiative
+type: module
+description: This module provides an API for a react site to consume, the data is about a DnD encounter scene.
+package: Custom
+core_version_requirement: ^9 || ^10

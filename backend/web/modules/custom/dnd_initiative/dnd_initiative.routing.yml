@@ -1,0 +1,15 @@
+dnd_initiative.example:
+  path: '/dnd-initiative/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\dnd_initiative\Controller\DndInitiativeController::build'
+  requirements:
+    _permission: 'access content'
+
+dnd_initiative.settings_form:
+  path: '/admin/config/system/dnd-initiative'
+  defaults:
+    _title: 'DnD Initiative settings'
+    _form: 'Drupal\dnd_initiative\Form\SettingsForm'
+  requirements:
+    _permission: 'administer dnd_initiative configuration'

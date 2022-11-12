@@ -1,0 +1,6 @@
+dnd_initiative.settings_form:
+  title: 'DnD Initiative'
+  description: 'Configure DnD Initiative.'
+  parent: system.admin_config_system
+  route_name: dnd_initiative.settings_form
+  weight: 10
