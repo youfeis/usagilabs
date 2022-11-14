@@ -1,0 +1,28 @@
+uuid: bdf45be2-a3d6-4c71-969e-be302f1d1a71
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dnd_scene.body
+    - node.type.dnd_scene
+  module:
+    - text
+    - user
+id: node.dnd_scene.default
+targetEntityType: node
+bundle: dnd_scene
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

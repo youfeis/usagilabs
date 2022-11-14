@@ -1,0 +1,23 @@
+uuid: 5ec569ca-c82b-4b9e-b1f4-42205bcfa7e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.dnd_scene
+  module:
+    - text
+id: node.dnd_scene.body
+field_name: body
+entity_type: node
+bundle: dnd_scene
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
