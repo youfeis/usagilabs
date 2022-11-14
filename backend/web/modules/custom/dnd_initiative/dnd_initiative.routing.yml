@@ -15,7 +15,7 @@ dnd_initiative.settings_form:
     _permission: 'administer dnd_initiative configuration'
 
 entity.dnd_entity.settings:
-  path: 'admin/structure/dnd-entity'
+  path: '/admin/structure/dnd-entity'
   defaults:
     _form: '\Drupal\dnd_initiative\Form\DndEntitySettingsForm'
     _title: 'Dnd Entity'

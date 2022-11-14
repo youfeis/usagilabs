@@ -10,6 +10,9 @@
  */
 function dnd_initiative_install() {
   \Drupal::messenger()->addStatus(__FUNCTION__);
+  \Drupal::entityDefinitionUpdateManager()->installEntityType(
+    \Drupal::entityTypeManager()->getDefinition('dnd_entity')
+  );
 }
 
 /**
@@ -94,3 +97,4 @@ function dnd_initiative_requirements($phase) {
 
   return $requirements;
 }
+
