@@ -1,0 +1,5 @@
+dnd_entity.add_form:
+  title: 'Add dnd entity'
+  route_name: entity.dnd_entity.add_form
+  appears_on:
+    - entity.dnd_entity.collection

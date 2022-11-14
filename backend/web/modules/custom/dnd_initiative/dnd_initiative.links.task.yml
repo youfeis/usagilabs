@@ -1,0 +1,22 @@
+entity.dnd_entity.settings:
+  title: 'Settings'
+  route_name: entity.dnd_entity.settings
+  base_route: entity.dnd_entity.settings
+entity.dnd_entity.view:
+  title: 'View'
+  route_name: entity.dnd_entity.canonical
+  base_route: entity.dnd_entity.canonical
+entity.dnd_entity.edit_form:
+  title: 'Edit'
+  route_name: entity.dnd_entity.edit_form
+  base_route: entity.dnd_entity.canonical
+entity.dnd_entity.delete_form:
+  title: 'Delete'
+  route_name: entity.dnd_entity.delete_form
+  base_route: entity.dnd_entity.canonical
+  weight: 10
+entity.dnd_entity.collection:
+  title: 'Dnd Entities'
+  route_name: entity.dnd_entity.collection
+  base_route: system.admin_content
+  weight: 10
